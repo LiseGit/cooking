@@ -1,0 +1,130 @@
+sc_node_not_relation -> concept_anise;;
+concept_anise => nrel_main_idtf:
+[анис](*<-lang_ru;;*);
+[anise] (* <-lang_en;; *);
+=>nrel_idtf:
+[бедренец анисовый] (* <-lang_ru;; *);
+[ганус] (* <-lang_ru;; *);
+[чанус] (* <-lang_ru;; *);
+[ганиж] (* <-lang_ru;; *);
+[сладкий тмин] (* <-lang_ru;; *);
+[хлебное семя] (* <-lang_ru;; *);
+[голубиный анис] (* <-lang_ru;; *);
+[анис обыкновенный] (* <-lang_ru;; *);;
+concept_anise<-rrel_key_sc_element:...
+(*
+<-explanation;;
+<=nrel_using_constants:...
+(*->concept_herb;;
+*);;
+<=nrel_sc_text_translation:...
+(*
+->[Анис - пахучая пряность сладковато-пряного вкуса, содержащая маслянистые вещества.](*<-lang_ru;;*);;
+*);;
+=>nrel_main_idtf: [Поясн. (анис)](*<-lang_ru;;*);;
+*);;
+concept_anise <-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+[Рис. (анис)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->"file://images/anise.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+concept_anise <=> nrel_go_together:
+concept_apple;
+concept_beet;
+concept_carrot;
+concept_citrus_fruit;
+concept_root_crop;
+concept_apricot;
+concept_cranberry;
+concept_pear;
+concept_pineapple;
+concept_pomegranate;
+concept_potato;
+concept_turnip;
+concept_pumpkin;
+
+concept_pork;
+concept_beef;
+concept_fish;
+concept_wild_meat;
+concept_seafood;
+concept_cheese;
+concept_bean;
+concept_chiken;
+concept_egg;
+concept_nut;
+
+concept_drink;
+concept_tea;
+concept_lemon_juice;
+concept_honey;
+concept_dough;
+
+concept_parsley;
+concept_fennel;
+concept_caraway;
+concept_coriander;
+concept_star_anise;
+concept_cinnamon;
+concept_ginger;
+concept_celery;
+concept_sweet_scented_pepper;
+concept_basil;
+concept_cardamom;
+concept_cayenne_pepper;
+concept_cilantro;
+concept_carnation;
+concept_chilli_pepper;
+concept_cumin;
+concept_fenugreek;
+concept_garlic;
+concept_mint;
+concept_nutmeg;
+concept_black_papper;
+concept_sesame;
+concept_turmeric;;
+
+concept_spicy_herb->concept_anise;;
+
+concept_anise => nrel_kkal : 337_kkal
+(*
+=> nrel_main_idtf:
+[337 ккал]
+(*
+<- lang_ru;;
+*);;
+<- concept_kkal;;
+*);;
+concept_anise => nrel_price : 34_rub
+(*
+=> nrel_main_idtf:
+[34 рубля]
+(*
+<- lang_ru;;
+*);;
+<- concept_price;;
+*);;
+concept_anise => nrel_storage_time: 2_years
+(*
+=> nrel_main_idtf:
+[2 года]
+(*
+<- lang_ru;;
+*);;
+<- concept_time;;
+*);;
+concept_anise => nrel_storage_conditions: in_sealed_container
+(*
+=> nrel_main_idtf:
+[в герметичной посуде]
+(*
+<- lang_ru;;
+*);;
+*);;
+concept_anise=> nrel_glycemic_index: 1;;
+

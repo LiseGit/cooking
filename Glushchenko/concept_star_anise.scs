@@ -1,0 +1,102 @@
+sc_node_not_relation -> concept_star_anise;;
+concept_star_anise => nrel_main_idtf:
+[бадьян](*<-lang_ru;;*);
+[star anise] (* <-lang_en;; *);
+=>nrel_idtf:
+[бадьян настоящий] (* <-lang_ru;; *);
+[анис звёздчатый] (* <-lang_ru;; *);
+[иллициум] (* <-lang_ru;; *);
+[illicium] (* <-lang_en;; *);
+[badain] (* <-lang_en;; *);
+[badiana] (* <-lang_en;; *);
+[chinese anise] (* <-lang_en;; *);;
+concept_star_anise<-rrel_key_sc_element:...
+(*
+<-explanation;;
+<=nrel_using_constants:...
+(*->concept_spice;
+concept_anise;
+concept_licorice;;
+*);;
+<=nrel_sc_text_translation:...
+(*
+->[Бадьян - пряность, обладающая чуть сладким, чуть горьким вкусом, похожим на анис, но лишенный приторности, и терпко-пряным сладковатым запахом, как у солодки, а так же содержащая маслянистые вещества.](*<-lang_ru;;*);;
+*);;
+=>nrel_main_idtf: [Поясн. (бадьян)](*<-lang_ru;;*);;
+*);;
+concept_star_anise <-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+[Рис. (бадьян)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->"file://images/star_anise.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+concept_star_anise <=> nrel_go_together:
+concept_cherry;
+concept_carrot;
+concept_citrus_fruit;
+concept_pear;
+concept_pineapple;
+concept_pumpkin;
+concept_tomato;
+concept_plum;
+concept_potato;
+concept_root_crop;
+concept_beet;
+concept_cabbage;
+
+concept_pork;
+concept_beef;
+concept_chiken;
+concept_duck;
+concept_wild_meat;
+concept_fish;
+concept_seafood;
+concept_nut;
+
+concept_drink;
+concept_lemon_juice;
+concept_honey;
+concept_fish_sauce;
+concept_soy_sauce;
+concept_dough;
+
+concept_onion;
+concept_garlic;
+concept_black_papper;
+concept_carnation;
+concept_fennel;
+concept_cinnamon;
+concept_mint;
+concept_ginger;
+concept_bay_leaf;
+concept_sweet_scented_pepper;
+concept_cardamom;
+concept_basil;
+concept_chilli_pepper;
+concept_cilantro;
+concept_coriander;
+concept_cumin;
+concept_nutmeg;
+concept_sesame;
+concept_sichuan_pepper;;
+
+concept_spice=>nrel_inclusion:concept_star_anise;;
+
+concept_star_anise => nrel_kkal : 337_kkal;;
+concept_star_anise => nrel_price : 104_rub
+(*
+=> nrel_main_idtf:
+[104 рубля]
+(*
+<- lang_ru;;
+*);;
+<- concept_price;;
+*);;
+concept_star_anise => nrel_storage_time: 2_years;;
+concept_star_anise => nrel_storage_conditions: in_sealed_container;;
+concept_star_anise=> nrel_glycemic_index: 1;;
+
